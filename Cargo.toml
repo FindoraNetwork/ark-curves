@@ -57,9 +57,9 @@ incremental = true
 debug-assertions = true
 debug = true
 
-# To be removed in the new release.
 [patch.crates-io]
-ark-ec = { git = "https://github.com/arkworks-rs/algebra" }
-ark-ff = { git = "https://github.com/arkworks-rs/algebra" }
-ark-serialize = { git = "https://github.com/arkworks-rs/algebra" }
-ark-algebra-test-templates = { git = "https://github.com/arkworks-rs/algebra" }
+ark-ec = { git = "https://github.com/FindoraNetwork/algebra" }
+ark-ff = { git = "https://github.com/FindoraNetwork/algebra" }
+ark-serialize = { git = "https://github.com/FindoraNetwork/algebra" }
+ark-algebra-test-templates = { git = "https://github.com/FindoraNetwork/algebra" }
+ark-std = { git = "https://github.com/FindoraNetwork/std" }
