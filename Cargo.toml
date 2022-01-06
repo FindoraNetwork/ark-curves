@@ -58,8 +58,8 @@ debug-assertions = true
 debug = true
 
 [patch.crates-io]
-ark-ec = { git = "https://github.com/FindoraNetwork/algebra" }
-ark-ff = { git = "https://github.com/FindoraNetwork/algebra" }
-ark-serialize = { git = "https://github.com/FindoraNetwork/algebra" }
-ark-algebra-test-templates = { git = "https://github.com/FindoraNetwork/algebra" }
-ark-std = { git = "https://github.com/FindoraNetwork/std" }
+ark-ec = { git = "https://github.com/FindoraNetwork/ark-algebra" }
+ark-ff = { git = "https://github.com/FindoraNetwork/ark-algebra" }
+ark-serialize = { git = "https://github.com/FindoraNetwork/ark-algebra" }
+ark-algebra-test-templates = { git = "https://github.com/FindoraNetwork/ark-algebra" }
+ark-std = { git = "https://github.com/FindoraNetwork/ark-std" }
