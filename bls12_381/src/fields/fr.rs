@@ -20,6 +20,9 @@ impl FftParameters for FrParameters {
         0xaf53ae352a31e64,
         0x5bf3adda19e9b27b,
     ]);
+
+    const SMALL_SUBGROUP_BASE: Option<u32> = Some(3);
+    const SMALL_SUBGROUP_BASE_ADICITY: Option<u32> = Some(1);
 }
 impl FpParameters for FrParameters {
     /// MODULUS = 52435875175126190479447740508185965837690552500527637822603658699938581184513
