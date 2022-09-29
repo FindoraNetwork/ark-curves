@@ -23,6 +23,14 @@ impl FftParameters for FrParameters {
 
     const SMALL_SUBGROUP_BASE: Option<u32> = Some(3);
     const SMALL_SUBGROUP_BASE_ADICITY: Option<u32> = Some(1);
+
+    #[rustfmt::skip]
+    const LARGE_SUBGROUP_ROOT_OF_UNITY: Option<Self::BigInt> = Some(BigInt::new([
+        0xc3bd1fc0baafea0c,
+        0x15e3d3605ecb5af5,
+        0xac35740580d62e80,
+        0x5a86e0353b85f530,
+    ]));
 }
 impl FpParameters for FrParameters {
     /// MODULUS = 52435875175126190479447740508185965837690552500527637822603658699938581184513
